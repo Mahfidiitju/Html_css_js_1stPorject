@@ -1,0 +1,189 @@
+.nav-link{
+    font-weight: 450;
+    font-size: 23px !important ; 
+    color: #d4a047 !important;
+}
+
+
+
+.nav-link:hover{
+   border:1px solid black;
+   color:black !important;
+   border-radius:5px;
+   background: rgb(255, 255, 255);
+   color: rgb(16, 172, 102);
+   transition:0.5s;
+   -webkit-transition:0.5s;
+   -moz-transition:0.5s;
+   -ms-transition:0.5s;
+   -o-transition:0.5s;
+   
+}
+.assignment{
+    color:#e99d19
+}
+
+
+  .top_bar{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 50px;
+    justify-content:space-around;
+    border: 1px solid rgb(228, 228, 228);
+  }
+
+  .top_bar .box{
+    color: #b57a15;
+  }
+
+  .top_bar p{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .top_bar .box img{
+    height: 20px;
+  }
+
+  .header{
+    border-bottom: 2px solid gainsboro;
+    box-shadow: 4px 4px 3px gainsboro;
+  }
+
+  .text_fn{
+    font-size: 24px;
+    font-weight: 500;
+
+  }
+
+
+
+.newBooksButton{
+    background-color: rgb(207, 152, 85);
+    border-radius: 0px !important;
+}
+
+.newBooksButton:hover{
+    background-color: rgb(230, 192, 147);
+    transition: 0.3s;
+}
+
+
+.newBooksPrice:hover{
+    color: rgb(207, 152, 85);
+}
+
+.newBooksLabel {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    bottom: auto;
+    right: auto;
+    font-weight: 500;
+    font-size: 12px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50rem;
+    background-color: rgba(67, 168, 0, .8); 
+    color: #FFFFFF;
+}
+
+.newBooks:hover{
+    transform: scale(1.01);
+    transition: 0.4s;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+
+.banner{
+    background-color: aqua;
+}
+
+
+/* footer */
+.footer{
+
+  color: white;
+}
+.email{
+  width: 500px;
+  height: 45px;
+}
+.search-btn{
+ width: 28px;
+ height: 45px;
+ border:none;
+  background: none;
+  font-size: 20px;
+  color:rgb(5, 39, 69);
+  margin-left: -35px;
+}
+.footer-info{
+  color: white;
+  font-size: 17px;
+  margin-left: 80px;
+  font-weight: 200;
+}
+.footer-bg{
+  background-color:#232f3e;
+}
+.menu{
+  font-size: 22px;
+  font-weight: 350;
+  color:#d2ab66
+}
+
+#icon
+{
+  padding: 4px;
+  font-size: 25px;
+}
+.hori{
+  background-color:rgb(165, 163, 163);
+  height: 0.3px;
+  width: 90%;
+}
+.logo{
+  height: 50px;
+}
+.enterAge{
+  color: #364f6b;
+}
+
+.catagoryButton{
+  background-color: rgb(207, 152, 85);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.catagoryButton:hover{
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+  color:black;
+  border: 2px solid black;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.category{
+  color: white;
+  font-weight: 400;
+}
+
+.explore{
+  color:#364f6b
+}
+
